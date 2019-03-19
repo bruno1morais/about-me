@@ -1,0 +1,47 @@
+<h1>{{titulo1}}</h1>                <!--Nome -->
+<div class="imagem-perfil">       
+  <p><img src="assets/bruno2.jpg"></p>    <!--Foto do perfil -->
+</div>
+
+
+<div class="bloco-biografia">
+<h2>{{titulo2}}</h2>
+<p>{{biografia}}</p>
+</div>
+
+
+<div class="bloco-tabela">
+<table class="Sobre">
+  <tr *ngFor="let item of minhas_informacoes" >
+    <th>{{item.endereco}}</th>
+    <th>{{item.dados_pessoais}}</th>
+    <th>{{item.dados_profissionais}}</th>
+  </tr>
+  <tr>
+    <td>
+      <dl *ngFor="let item of endereco"> 
+        <dt>{{item}}</dt>
+      </dl>
+    </td>
+    <td>
+      <dl *ngFor="let item of dados_pessoais"> 
+        <dt>{{item}}</dt>
+      </dl>
+    </td>
+    <td>
+      <dl *ngFor="let item of dados_profissionais"> 
+        <dt>{{item}}</dt>
+      </dl>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+<div class="bloco-lista-de-disciplinas">
+  <h3>{{titulo3}}</h3>
+  <dl *ngFor="let item of lista_de_disciplinas">
+    <dt>{{item.periodo}}</dt>
+      <dd *ngFor="let i of item.nome">{{i}}</dd>
+    </dl>
+</div>git 

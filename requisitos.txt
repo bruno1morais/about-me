@@ -1,0 +1,19 @@
+
+foto ok
+nome ok 
+data de nascimento ok 
+sexo ok
+email ok
+profis�o ok
+interesses ok 
+estado civil ok 
+biografia ok 
+cidade ok 
+estado ok 
+informa��es acad�micas:
+	universidade 	ok 
+	curso ok 
+	lista de displinas cursada por periodo ok 
+informa��es profissionais 
+	onde trabalha ok
+	cargo/fun��o ok 
